@@ -1,0 +1,20 @@
+# Created by: Hondareyte <lhondareyte@laposte.net>
+# $FreeBSD$
+
+PORTNAME=	mm
+PORTVERSION=	0.2a
+CATEGORIES=	audio
+
+MAINTAINER=	lhondareyte@laposte.net
+COMMENT=	MM: Simple MIDI monitor
+
+LICENSE=	BSD2CLAUSE
+
+MAKEFILE=	BSDmakefile
+
+USE_GITHUB=	yes
+GH_ACCOUNT=	lhondareyte
+GH_PROJECT=	mm
+GH_TAGNAME=	${PORTVERSION}
+
+.include <bsd.port.mk>
