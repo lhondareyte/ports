@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	firmwarehotplug
-PORTVERSION=	0.1
+PORTVERSION=	0.1a
 CATEGORIES=	audio
 
 MAINTAINER=	lhondareyte@laposte.net
