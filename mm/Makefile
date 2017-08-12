@@ -6,7 +6,7 @@ PORTVERSION=	0.2a
 CATEGORIES=	audio
 
 MAINTAINER=	lhondareyte@laposte.net
-COMMENT=	MM: Simple MIDI monitor
+COMMENT=	Simple MIDI monitor
 
 LICENSE=	BSD2CLAUSE
 

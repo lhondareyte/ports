@@ -6,7 +6,7 @@ PORTVERSION=	0.1a
 CATEGORIES=	audio
 
 MAINTAINER=	lhondareyte@laposte.net
-COMMENT=	FIRMWAREHOTPLUG - GPLv2 firmwares for M-AUDIO MIDI usb interfaces
+COMMENT=	Firmwares for M-AUDIO MIDI usb interfaces
 
 LICENSE=	GPLv2
 
