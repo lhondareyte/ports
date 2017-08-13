@@ -13,6 +13,8 @@ LICENSE=	GPLv2
 BUILD_DEPENDS= 	sdcc:lang/sdcc
 RUN_DEPENDS=	fxload:misc/fxload
 
+NO_ARCH=	yes
+
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	firmwarehotplug
