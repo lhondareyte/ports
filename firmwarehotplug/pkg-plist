@@ -5,6 +5,7 @@
 %%PORTDOCS%%%%DOCSDIR%%/COPYING
 %%PORTDOCS%%%%DOCSDIR%%/README
 etc/devd/m-audio.conf
+share/fxload/m-audio/ezusbmidi.ihx
 share/fxload/m-audio/ezusbmidi1x1.ihx
 share/fxload/m-audio/ezusbmidi2x2.ihx
 share/fxload/m-audio/m-audio-unified.conf
