@@ -1,5 +1,3 @@
-@postexec /usr/sbin/service devd restart
-@postunexec /usr/sbin/service devd restart
 %%PORTDOCS%%%%DOCSDIR%%/AUTHORS
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog
 %%PORTDOCS%%%%DOCSDIR%%/COPYING
