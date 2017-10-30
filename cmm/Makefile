@@ -1,7 +1,7 @@
 # Created by: Hondareyte <lhondareyte@laposte.net>
 # $FreeBSD$
 
-PORTNAME=	mm
+PORTNAME=	cmm
 PORTVERSION=	0.2a
 CATEGORIES=	audio
 
