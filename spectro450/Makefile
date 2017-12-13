@@ -7,27 +7,19 @@ CATEGORIES=	sysutils
 
 MAINTAINER=	lhondareyte@laposte.net
 WWW=		http://lhondareyte.free.fr/Noizebox
-COMMENT=	Spectro450 Generic Appliance
-
-LICENSE=	BSD2CLAUSE
-NO_LICENSES_INSTALL=yes
+COMMENT=	Spectro450 Generic Appliance meta-port
+MASTER_SITES=	# none
+DISTFILES=	# none
 
 RUN_DEPENDS=	spectro-utils:sysutils/spectro-utils
 
 NO_ARCH=	yes
-USES=		pkgconfig
 
-clean:
-	@rm -rf pkg-plist
+PLIST_FILES=	share/${PORTNAME}
+NO_BUILD=	yes
+NO_FETCH=	yes
 
-build:
-	@mkdir -p ${STAGEDIR}${PREFIX}/share/${PORTNAME}
-	@printf "share/${PORTNAME}/${PORTNAME}.release" > pkg-plist
-	
-extract:
-	@mkdir -p ${STAGEDIR}
-	
 do-install:
-	@echo "VERSION=${PORTVERSION}" > ${STAGEDIR}${PREFIX}/share/${PORTNAME}/${PORTNAME}.release
+	@${ECHO_CMD} "Placeholder file" > ${STAGEDIR}${PREFIX}/${PLIST_FILES}
 
 .include <bsd.port.mk>
