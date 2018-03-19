@@ -6,12 +6,10 @@ PORTVERSION=	1.0
 CATEGORIES=	sysutils
 
 MAINTAINER=	lhondareyte@laposte.net
-WWW=		http://lhondareyte.free.fr/Noizebox
+WWW=		https://github.com/lhondareyte/spectro-450
 COMMENT=	Spectro450 Generic Appliance meta-port
 MASTER_SITES=	# none
 DISTFILES=	# none
-
-#RUN_DEPENDS=	spectro-utils:sysutils/spectro-utils
 
 NO_ARCH=	yes
 
