@@ -1,0 +1,2 @@
+{"name":"spectro450","origin":"sysutils/spectro450","version":"1.0","comment":"Spectro450 Generic Appliance meta-port","maintainer":"lhondareyte@laposte.net","www":"http://lhondareyte.free.fr/Noizebox","abi":"FreeBSD:11:*","arch":"freebsd:11:*","prefix":"/usr/local","flatsize":17,"licenselogic":"single","desc":"Spectro450 Generic Appliance meta-port","deps":{"spectro-utils":{"origin":"sys
+utils/spectro-utils"}},"categories":["sysutils"]}
