@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	firmwarehotplug
-PORTVERSION=	0.1a
+PORTVERSION=	0.1b
 CATEGORIES=	audio
 
 MAINTAINER=	lhondareyte@laposte.net
@@ -29,11 +29,12 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/original/ezusbmidi1x1.ihx ${STAGEDIR}${PREFIX}/share/fxload/m-audio/
 	${INSTALL_DATA} ${WRKSRC}/original/ezusbmidi2x2.ihx ${STAGEDIR}${PREFIX}/share/fxload/m-audio/
 	${INSTALL_DATA} ${WRKSRC}/original/freebsd.conf ${STAGEDIR}${PREFIX}/etc/devd/m-audio.conf
+	${INSTALL_DATA} ${WRKSRC}/original/freebsd.conf ${STAGEDIR}${PREFIX}/share/fxload/m-audio/m-audio-original.conf
+	${INSTALL_DATA} ${WRKSRC}/unified/ezusbmidi.ihx ${STAGEDIR}${PREFIX}/share/fxload/m-audio/
+	${INSTALL_DATA} ${WRKSRC}/unified/freebsd.conf ${STAGEDIR}${PREFIX}/share/fxload/m-audio/m-audio-unified.conf
 	${INSTALL_DATA} ${WRKSRC}/original/AUTHORS ${STAGEDIR}${PREFIX}/share/doc/${PORTNAME}
 	${INSTALL_DATA} ${WRKSRC}/original/ChangeLog ${STAGEDIR}${PREFIX}/share/doc/${PORTNAME}
 	${INSTALL_DATA} ${WRKSRC}/original/COPYING ${STAGEDIR}${PREFIX}/share/doc/${PORTNAME}
 	${INSTALL_DATA} ${WRKSRC}/original/README ${STAGEDIR}${PREFIX}/share/doc/${PORTNAME}
-	${INSTALL_DATA} ${WRKSRC}/unified/ezusbmidi.ihx ${STAGEDIR}${PREFIX}/share/fxload/m-audio/
-	${INSTALL_DATA} ${WRKSRC}/unified/freebsd.conf ${STAGEDIR}${PREFIX}/share/fxload/m-audio/m-audio-unified.conf
 
 .include <bsd.port.mk>
