@@ -1,0 +1,16 @@
+bin/kconfig-conf
+bin/kconfig-mconf
+bin/kconfig-nconf
+bin/kconfig
+bin/kconfig-tweak
+bin/kconfig-diff
+bin/kconfig-merge
+include/kconfig/list.h
+include/kconfig/lkc.h
+include/kconfig/expr.h
+include/kconfig/lkc_proto.h
+lib/libkconfig-parser-4.11.0.so
+lib/libkconfig-parser.so
+libdata/pkgconfig/kconfig-parser.pc
+share/doc/kconfig-frontends/kconfig-language.txt
+share/doc/kconfig-frontends/kconfig.txt
