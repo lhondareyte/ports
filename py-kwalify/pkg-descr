@@ -1,5 +1,6 @@
 YAML/JSON validation library
 
-This framework is a port with a lot of added functionality of the Java version of the framework kwalify that can be found at http://www.kuwata-lab.com/kwalify/
+This framework is a port with a lot of added functionality of the Java version 
+of the framework kwalify that can be found at http://www.kuwata-lab.com/kwalify/
 
 WWW: https://pypi.org/project/pykwalify/
