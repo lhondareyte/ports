@@ -4,6 +4,7 @@
 PORTNAME=	cmm
 PORTVERSION=	0.2a
 CATEGORIES=	audio
+MASTER_SITES=	GH
 
 MAINTAINER=	lhondareyte@laposte.net
 COMMENT=	Simple MIDI monitor

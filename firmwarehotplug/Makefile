@@ -4,6 +4,7 @@
 PORTNAME=	firmwarehotplug
 PORTVERSION=	0.1b
 CATEGORIES=	audio
+MASTER_SITES=	GH
 
 MAINTAINER=	lhondareyte@laposte.net
 COMMENT=	Firmwares for M-AUDIO MIDI usb interfaces
@@ -13,14 +14,14 @@ LICENSE=	GPLv2
 BUILD_DEPENDS= 	sdcc:lang/sdcc
 RUN_DEPENDS=	fxload:misc/fxload
 
+USES=		gmake pkgconfig
+
 NO_ARCH=	yes
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	firmwarehotplug
 GH_TAGNAME=	${PORTVERSION}
-
-USES=		gmake pkgconfig
 
 do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/share/doc/${PORTNAME}

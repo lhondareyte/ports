@@ -1,2 +1,3 @@
-Linux kernel configuration (aka kconfig) parser and frontends
+Linux kernel configuration (aka kconfig) parser and frontends.
+
 Also used by NuttX
