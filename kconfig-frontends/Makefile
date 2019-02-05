@@ -12,6 +12,8 @@ COMMENT=	Linux kernel configuration (aka kconfig) parser and frontends
 LICENSE=	GPLv2
 LICENSE_FILE=   ${WRKSRC}/COPYING
 
+RUN_DEPENDS=	bash:shells/bash
+
 USES=		pkgconfig gmake libtool autoreconf tar:bzip2
 
 GNU_CONFIGURE=	yes
