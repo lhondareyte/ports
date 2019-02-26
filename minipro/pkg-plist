@@ -1,0 +1,5 @@
+%%DOCSDIR%%/LICENSE
+%%DOCSDIR%%/README.md
+bin/minipro
+bin/miniprohex
+share/man/man1/minipro.1
