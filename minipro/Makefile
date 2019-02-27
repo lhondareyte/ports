@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	minipro
-PORTVERSION=	devel
+PORTVERSION=	0.3
 CATEGORIES=	sysutils
 MASTER_SITES=	GH
 
@@ -15,11 +15,11 @@ USES=		gmake pkgconfig
 
 USE_GITLAB=	yes
 GL_ACCOUNT=	DavidGriffith
-GL_COMMIT=	2bcb4e2d7d1a54fdd8db71c5c55cfea10d2349bf
+GL_COMMIT=	e6fb06822e6685886a045ae98c3c82d832bd8e9c
 GL_PROJECT=	${PORTNAME}
 
 post-patch:
 	@${REINPLACE_CMD} -e ' s|gcc|clang|g'  \
-               ${WRKSRC}/Makefile
+		${WRKSRC}/Makefile
 
 .include <bsd.port.mk>
