@@ -3,7 +3,7 @@
 
 PORTNAME=	kconfig-frontends
 PORTVERSION=	4.11.0.1
-CATEGORIES=	devel
+CATEGORIES=	sysutils
 MASTER_SITES=	http://ymorin.is-a-geek.org/download/$(PORTNAME)/
 
 MAINTAINER=	lhondareyte@laposte.net
