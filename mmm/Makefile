@@ -1,21 +1,22 @@
 # Created by: Hondareyte <lhondareyte@laposte.net>
 # $FreeBSD$
 
-PORTNAME=	cmm
-PORTVERSION=	0.2a
+PORTNAME=	mmm
+PORTVERSION=	0.3
 CATEGORIES=	audio
 MASTER_SITES=	GH
 
 MAINTAINER=	lhondareyte@laposte.net
-COMMENT=	Simple MIDI monitor
+COMMENT=	Minimal MIDI monitor
 
 LICENSE=	BSD2CLAUSE
 
-MAKEFILE=	BSDmakefile
-
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
-GH_PROJECT=	mm
+GH_PROJECT=	mmm
 GH_TAGNAME=	${PORTVERSION}
+
+do-install:
+	${INSTALL_PROGRAM} ${WRKSRC}/mmm ${STAGEDIR}${PREFIX}/bin
 
 .include <bsd.port.mk>
