@@ -16,7 +16,7 @@ USES=		pkgconfig gmake
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
-GH_TUPLE=	FluidSynth:fluidsynth:v2.0.3:fluidsynth
+GH_TUPLE=	FluidSynth:fluidsynth:v2.0.7:fluidsynth
 PKG_DEPENDS=	spectro450:sysutils/spectro450
 
 PREFIX=		/Applications
