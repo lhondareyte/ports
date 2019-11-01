@@ -15,8 +15,12 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	mmm
 GH_TAGNAME=	${PORTVERSION}
+PLIST_FILES=	bin/mmm
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/mmm ${STAGEDIR}${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME} ${STAGEDIR}${PREFIX}/bin
+
+post-install:
+	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/${PORTNAME}
 
 .include <bsd.port.mk>
