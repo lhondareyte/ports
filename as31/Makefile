@@ -6,7 +6,7 @@ PORTVERSION=	2.3.1
 CATEGORIES=	devel
 
 MAINTAINER=	lhondareyte@laposte.net
-COMMENT=	8031/8051 Assembler from Paul Stoffregen and Martin Langer
+COMMENT=	An Intel 8031/8051 assembler
 
 LICENSE=	BSD
 
