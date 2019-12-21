@@ -3,8 +3,8 @@
 
 PORTNAME=	noizebox
 PORTVERSION=	1.2
+PORTREVISION=	1
 CATEGORIES=	audio
-MASTER_SITES=	GH
 
 MAINTAINER=	lhondareyte@laposte.net
 COMMENT=	SF2 synthesizer based on Fluidsynth and curses
@@ -16,8 +16,11 @@ USES=		gmake
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
+GH_TAGNAME=	9e12693
 GH_TUPLE=	FluidSynth:fluidsynth:v2.1.0:fluidsynth
 PKG_DEPENDS=	spectro450:sysutils/spectro450
+BUNDLE_LIBS=    yes
+USE_LDCONFIG=   yes
 PLIST_FILES=    Noizebox/Contents/FreeBSD/amd64/noizebox \
 		Noizebox/Frameworks/FreeBSD/amd64/libsqlite3.so.0 \
 		Noizebox/Frameworks/FreeBSD/amd64/libncurses.so.8 \
@@ -42,7 +45,7 @@ PREFIX=		/Applications
 
 GIT_YEAR=	2019
 MAKE_ARGS+=	GIT_YEAR="$(GIT_YEAR)"
-MAKE_ARGS+=	GIT_VERSION="$(PORTVERSION)"
+MAKE_ARGS+=	GIT_VERSION="$(DISTVERSION)"
 MAKE_JOBS_UNSAFE=yes
 
 post-extract:
@@ -50,7 +53,7 @@ post-extract:
 	@$(MV) $(WRKSRC_fluidsynth)/* $(WRKSRC)/fluidsynth/
 
 do-install:
-	@cd $(WRKSRC) && ${GMAKE} install
+	@cd $(WRKSRC) && ${GMAKE} bintree
 	@cd $(WRKSRC) && ${COPYTREE_BIN} ./Noizebox  $(STAGEDIR)$(PREFIX)
 	@${CHMOD} 644  $(STAGEDIR)$(PREFIX)/Noizebox/Resources/*.conf
 	@${CHMOD} 644  $(STAGEDIR)$(PREFIX)/Noizebox/Resources/etc/*.conf
