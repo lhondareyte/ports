@@ -1,2 +1,4 @@
 Linux kernel configuration (aka kconfig) parser and frontends.
 Also used to build NuttX OS.
+
+WWW: http://ymorin.is-a-geek.org
