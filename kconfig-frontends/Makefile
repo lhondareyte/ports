@@ -4,7 +4,6 @@
 PORTNAME=	kconfig-frontends
 PORTVERSION=	4.11.0.1
 CATEGORIES=	sysutils
-MASTER_SITES=	http://ymorin.is-a-geek.org/download/$(PORTNAME)/
 
 MAINTAINER=	lhondareyte@laposte.net
 COMMENT=	Linux kernel configuration (aka kconfig) parser and frontends
@@ -15,6 +14,11 @@ LICENSE_FILE=   ${WRKSRC}/COPYING
 RUN_DEPENDS=	bash:shells/bash
 
 USES=		pkgconfig gmake libtool autoreconf tar:bzip2
+
+USE_GITHUB=	yes
+GH_ACCOUNT=	lhondareyte
+GH_PROJECT=	$(PORTNAME)
+GH_TAGNAME=	$(PORTVERSION)
 
 GNU_CONFIGURE=	yes
 
