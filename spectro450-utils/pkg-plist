@@ -1,9 +1,0 @@
-etc/rc.d/firstboot
-etc/rc.d/spectro450
-etc/devd/spectro450.conf
-etc/devd/midi-usb.conf
-libexec/spectro450/saveconfig
-libexec/spectro450/pkg_wrapper
-libexec/spectro450/install
-libexec/spectro450/uninstall
-share/spectro450/spectro450.conf
