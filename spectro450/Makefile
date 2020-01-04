@@ -2,32 +2,15 @@
 # $FreeBSD$
 
 PORTNAME=	spectro450
-PORTVERSION=	1.0
+PORTVERSION=	0.1
 CATEGORIES=	sysutils
-MASTER_SITES=	http://lhondareyte.free.fr/spectro450/
-DISTFILES=	#none
 
 MAINTAINER=	lhondareyte@laposte.net
-COMMENT=	Spectro450 Generic Appliance meta-port
+COMMENT=	Spectro450 Appliance base
 
-NO_ARCH=	yes
-
-PLIST_FILES=	share/${PORTNAME}
-NO_BUILD=	yes
-NO_FETCH=	yes
-
-do-install:
-
-package:
-	${RM} -rf ${STAGEDIR}/*
-	${MKDIR} ${STAGEDIR}${PREFIX}/share
-	${ECHO_CMD} "Placeholder file" ${PORTVERSION} > ${STAGEDIR}${PREFIX}/${PLIST_FILES}
-	${INSTALL_DATA} files/MANIFEST ${STAGEDIR}/+MANIFEST
-	${INSTALL_DATA} files/COMPACT_MANIFEST ${STAGEDIR}/+COMPACT_MANIFEST
-	${TOUCH} -t 197001010100.00 ${STAGEDIR}/*MANIFEST
-	${MKDIR} ${STAGEDIR}/../pkg
-	cd ${STAGEDIR} &&  ${CHOWN} -R root:wheel *
-	cd ${STAGEDIR} && tar cJf ../pkg/${PORTNAME}-${PORTVERSION}.txz +MANIFEST +COMPACT_MANIFEST \
-		usr/local/share/${PORTNAME}
+USE_GITHUB=	yes
+GH_ACCOUNT=	lhondareyte
+GH_PROJECT=	spectro450-core
+GH_TAGNAME=	427e2c1
 
 .include <bsd.port.mk>

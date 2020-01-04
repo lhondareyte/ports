@@ -6,8 +6,7 @@
 * [mmm](https://github.com/lhondareyte/mmm) : Simple MIDI monitor
 * [noizebox](https://github.com/lhondareyte/noizebox) : Old school synthesizer based on ncurses and fluidsynth
 * [py-kwalify](https://pypi.org/project/pykwalify/)
-* [spectro450](https://github.com/lhondareyte/spectro-450)
-* [spectro450-core](https://github.com/lhondareyte/spectro450-core)
+* [spectro450](https://github.com/lhondareyte/spectro450-core)
 * [sqlite3](https://www.sqlite.org) : Specific version without GNU dependencies
 # Howto
 To build a specific package, just type:
