@@ -6,6 +6,7 @@
 * [mmm](https://github.com/lhondareyte/mmm) : Simple MIDI monitor
 * [noizebox](https://github.com/lhondareyte/noizebox) : Old school synthesizer based on ncurses and fluidsynth
 * [py-kwalify](https://pypi.org/project/pykwalify/)
+* [smart-psu](https://github.com/lhondareyte/smart-psu) Smart PSU for ARM board
 * [spectro450](https://github.com/lhondareyte/spectro450-core)
 * [sqlite3](https://www.sqlite.org) : Specific version without GNU dependencies
 # Howto
