@@ -2,12 +2,14 @@
 # $Id$
 #
 PACKAGES=	as31 \
+		dvm1200 \
 		firmwarehotplug \
 		kconfig-frontends \
 		minipro \
 		mmm \
 		noizebox \
 		py-kwalify \
+		smart-psu \
 		spectro450 \
 		sqlite3
 
