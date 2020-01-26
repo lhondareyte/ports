@@ -18,12 +18,14 @@ GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
 GH_TAGNAME=	22f6997
 PLIST_FILES=    bin/psud \
+		etc/rc.d/psud \
 		etc/psud.conf.sample
 
 WRKSRC_SUBDIR=	psud
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/psud ${STAGEDIR}${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/../etc/psud ${STAGEDIR}${PREFIX}/etc/rc.d/psud
 	${INSTALL_DATA} ${WRKSRC}/../etc/psud.conf ${STAGEDIR}${PREFIX}/etc/psud.conf.sample
 
 .include <bsd.port.mk>
