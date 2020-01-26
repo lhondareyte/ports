@@ -15,10 +15,10 @@ RUN_DEPENDS=	bash:shells/bash
 
 USES=		pkgconfig gmake libtool autoreconf tar:bzip2
 
-USE_GITHUB=	yes
-GH_ACCOUNT=	lhondareyte
-GH_PROJECT=	$(PORTNAME)
-GH_TAGNAME=	$(PORTVERSION)
+USE_GITLAB=	yes
+GL_ACCOUNT=	ymorin
+GL_PROJECT=	$(PORTNAME)
+GL_COMMIT=	df6a283f24aa146ab862950503db9542a12dab7a
 
 GNU_CONFIGURE=	yes
 
