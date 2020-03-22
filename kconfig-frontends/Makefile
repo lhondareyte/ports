@@ -1,11 +1,11 @@
-# Created by: Hondareyte <lhondareyte@laposte.net>
+# Created by: Hondareyte
 # $FreeBSD$
 
 PORTNAME=	kconfig-frontends
 PORTVERSION=	4.11.0.1
 CATEGORIES=	sysutils
 
-MAINTAINER=	lhondareyte@laposte.net
+MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Linux kernel configuration (aka kconfig) parser and frontends
 
 LICENSE=	GPLv2

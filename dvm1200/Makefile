@@ -1,4 +1,4 @@
-# Created by: Luc Hondareyte
+# Created by: Hondareyte
 # $FreeBSD$
 
 PORTNAME=	dvm1200
@@ -6,7 +6,7 @@ PORTVERSION=	1.0
 #PORTREVISION=	1
 CATEGORIES=	sysutils
 
-MAINTAINER=	lhondareyte@laposte.net
+MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	CLI for VELLEMAN DVM1200
 
 LICENSE=	BSD2CLAUSE

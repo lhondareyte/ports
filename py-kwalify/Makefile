@@ -1,4 +1,4 @@
-# Created by: Hondareyte <lhondareyte@laposte.net>
+# Created by: Hondareyte
 # $FreeBSD$
 
 PORTNAME=	pykwalify
@@ -7,7 +7,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
-MAINTAINER=	lhondareyte@laposte.net
+MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Python lib/cli for JSON/YAML schema validation
 
 LICENSE=	MIT

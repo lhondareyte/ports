@@ -1,4 +1,4 @@
-# Created by: Luc Hondareyte
+# Created by: Hondareyte
 # $FreeBSD$
 
 PORTNAME=	smart-psu
@@ -6,7 +6,7 @@ PORTVERSION=	1.0
 #PORTREVISION=	1
 CATEGORIES=	sysutils
 
-MAINTAINER=	lhondareyte@laposte.net
+MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Smart PSU daemon for ARM board
 
 LICENSE=	BSD2CLAUSE
