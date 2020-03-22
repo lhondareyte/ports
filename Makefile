@@ -11,6 +11,8 @@ PACKAGES=	as31 \
 		py-kwalify \
 		smart-psu \
 		spectro450 \
+		jack \
+		jack_umidi \
 		sqlite3
 
 default:
