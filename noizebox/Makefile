@@ -6,7 +6,7 @@ PORTVERSION=	1.2
 PORTREVISION=	1
 CATEGORIES=	audio
 
-MAINTAINER=	lhondareyte@laposte.net
+MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	SF2 synthesizer based on Fluidsynth and curses
 
 LICENSE=	BSD2CLAUSE

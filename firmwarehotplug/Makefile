@@ -1,4 +1,4 @@
-# Created by: Hondareyte <lhondareyte@laposte.net>
+# Created by: Hondareyte
 # $FreeBSD$
 
 PORTNAME=	firmwarehotplug
@@ -6,7 +6,7 @@ PORTVERSION=	0.1b
 CATEGORIES=	audio
 MASTER_SITES=	GH
 
-MAINTAINER=	lhondareyte@laposte.net
+MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Firmwares for M-AUDIO MIDI usb interfaces
 
 LICENSE=	GPLv2

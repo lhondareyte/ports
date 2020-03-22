@@ -1,4 +1,4 @@
-# Created by: Hondareyte <lhondareyte@laposte.net>
+# Created by: Hondareyte
 # $FreeBSD$
 
 PORTNAME=	mmm
@@ -6,7 +6,7 @@ PORTVERSION=	0.3
 CATEGORIES=	audio
 MASTER_SITES=	GH
 
-MAINTAINER=	lhondareyte@laposte.net
+MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Minimal MIDI monitor
 
 LICENSE=	BSD2CLAUSE
