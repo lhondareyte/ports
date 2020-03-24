@@ -30,9 +30,8 @@ USE_RC_SUBR=	jackd
 
 CONFIGURE_ARGS=	--disable-portaudio \
 		--enable-optimize \
-		--enable-sndfile \
-		--enable-celt \
-		--enable-samplerate \
+		--disable-sndfile \
+		--disable-celt \
 		--disable-alsa \
 		--disable-sndio \
 		--enable-force-install \

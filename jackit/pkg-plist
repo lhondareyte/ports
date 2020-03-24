@@ -17,7 +17,6 @@ bin/jack_midi_dump
 bin/jack_monitor_client
 bin/jack_netsource
 bin/jack_property
-bin/jack_rec
 bin/jack_samplerate
 bin/jack_session_notify
 bin/jack_server_control

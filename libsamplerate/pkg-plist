@@ -1,0 +1,4 @@
+lib/libsamplerate.so
+lib/libsamplerate.so.0
+lib/libsamplerate.so.0.1.8
+libdata/pkgconfig/samplerate.pc

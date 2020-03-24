@@ -1,9 +1,11 @@
 # Miscellaneous FreeBSD Ports
 * [as31](https://www.pjrc.com/tech/8051/tools/as31_old.html) : An Intel 8031/8051 assembler
+* [db5](https://download.oracle.com/berkeley-db/) : Strip down version of Berkeley DB (almost library)
 * [dvm1200](https://github.com/lhondareyte/dvm1200) : Velleman DVM1200 command line interface
 * [firmwarehotplug](https://github.com/lhondareyte/firmwarehotplug) : Open-source Firmwares for M-AUDIO Midi interfaces
 * [jackit](https://jackaudio.org) : Specific version with minimum dependencies
 * [jack_umidi](http://www.selasky.org/hans_petter) : Specific version without options
+* [libsamplerate](http://www.mega-nerd.com/SRC/) : Specific strip down version
 * [kconfig-frontends](http://ymorin.is-a-geek.org/projects/kconfig-frontends) : Required to build [NuttX](https://nuttx.org)
 * [minipro](https://gitlab.com/DavidGriffith/minipro/) : do not use this, since there is an official port
 * [mmm](https://github.com/lhondareyte/mmm) : Simple MIDI monitor
