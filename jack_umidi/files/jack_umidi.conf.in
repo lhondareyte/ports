@@ -5,10 +5,16 @@
 # This will attempt to run jack_umidi as whatever user jackd is running as.
 #
 
+options {
+	set ENV "/usr/bin/env";
+	set VAR "PATH=%%PREFIX%%/bin:/usr/bin";
+	set CMD "%%PREFIX%%/sbin/jack_umidi";
+};
+
 notify 0 {
-	match "system"		"DEVFS";
-	match "subsystem"	"CDEV";
-	match "type"		"CREATE";
-	match "cdev"		"umidi[0-9]*[.][0-9]*";
-	action			"/usr/bin/env PATH=%%PREFIX%%/bin:/usr/bin %%PREFIX%%/sbin/jack_umidi -kBd /dev/$cdev -U `pgrep -x jackd | xargs -n 1 ps -o user= -p | head -1`";
+	match "system" "DEVFS";
+	match "subsystem" "CDEV";
+	match "type" "CREATE";
+	match "cdev" "umidi[0-9]*[.][0-9]*";
+	action "$ENV $VAR $CMD -kBd /dev/$cdev -U root";
 };
