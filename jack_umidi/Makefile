@@ -2,10 +2,10 @@
 # $FreeBSD: head/audio/jack_umidi/Makefile 475237 2018-07-24 09:49:48Z hselasky $
 
 PORTNAME=	jack_umidi
-PORTVERSION=	1.0.9
+PORTVERSION=	1.1.0
 CATEGORIES=	audio
 MASTER_SITES=	http://www.selasky.org/hans_petter/distfiles/ \
-		http://home.selasky.org:8192/distfiles/
+		http://home.selasky.org/distfiles/
 
 MAINTAINER=	hselasky@FreeBSD.org
 COMMENT=	Daemon that converts a raw MIDI device into a JACK MIDI device
@@ -20,10 +20,5 @@ PLIST_FILES=	sbin/jack_umidi \
 
 MAKE_ARGS+=     HAVE_MAN="YES"
 MAKE_ARGS+=     PTHREAD_LIBS="-lpthread"
-
-USE_GITHUB=	yes
-GH_ACCOUNT=	hselasky
-GH_PROJECT=	jack_umidi
-GH_TAGNAME=	596adbc
 
 .include <bsd.port.mk>
