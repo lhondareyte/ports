@@ -2,10 +2,12 @@
 # $FreeBSD: head/databases/sqlite3/Makefile 486622 2018-12-04 18:02:14Z swills $
 
 PORTNAME=	sqlite3
-DISTVERSION=	3.29.0
+DISTVERSION=	3.33.0
+PORTREVISION=   1
+PORTEPOCH=      1
 CATEGORIES=	databases
-MASTER_SITES=	https://www.sqlite.org/2019/ http://www2.sqlite.org/2019/ http://www3.sqlite.org/2019/
-DISTNAME=	sqlite-autoconf-${PORTVERSION:C/\.([[:digit:]])[[:>:]]/0\1/g:S/.//g}00
+MASTER_SITES=   https://www.sqlite.org/2020/ http://www2.sqlite.org/2020/ http://www3.sqlite.org/2020/
+DISTNAME=       sqlite-autoconf-${PORTVERSION:C/\.([[:digit:]])[[:>:]]/0\1/g:S/.//g}00
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	SQL database engine in a C library
