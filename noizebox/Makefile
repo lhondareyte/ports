@@ -11,13 +11,11 @@ COMMENT=	SF2 synthesizer based on Fluidsynth and curses
 
 LICENSE=	BSD2CLAUSE
 
-USES=		gmake
-
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
-GH_TAGNAME=	9e12693
-GH_TUPLE=	FluidSynth:fluidsynth:v2.1.0:fluidsynth
+GH_TAGNAME=	091dbe8
+GH_TUPLE=	FluidSynth:fluidsynth:v2.1.5:fluidsynth
 PKG_DEPENDS=	spectro450:sysutils/spectro450
 BUNDLE_LIBS=    yes
 USE_LDCONFIG=   no
