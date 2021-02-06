@@ -3,7 +3,7 @@
 
 PORTNAME=	noizebox
 PORTVERSION=	1.2
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	audio
 
 MAINTAINER=	lhondareyte@isp.net.invalid
@@ -14,8 +14,8 @@ LICENSE=	BSD2CLAUSE
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
-GH_TAGNAME=	091dbe8
-GH_TUPLE=	FluidSynth:fluidsynth:v2.1.5:fluidsynth
+GH_TAGNAME=	638252a
+GH_TUPLE=	FluidSynth:fluidsynth:v2.1.7:fluidsynth
 PKG_DEPENDS=	spectro450:sysutils/spectro450
 BUNDLE_LIBS=    yes
 USE_LDCONFIG=   no
@@ -32,7 +32,7 @@ PLIST_FILES=    Noizebox/Contents/FreeBSD/$(ARCH)/noizebox \
 		Noizebox/Frameworks/FreeBSD/$(ARCH)/libiconv.so.2 \
 		Noizebox/Frameworks/FreeBSD/$(ARCH)/libpcre.so.1 \
 		Noizebox/Frameworks/FreeBSD/$(ARCH)/libfluidsynth.so.2 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libfluidsynth.so.2.3.0 \
+		Noizebox/Frameworks/FreeBSD/$(ARCH)/libfluidsynth.so.2.3.7 \
 		Noizebox/Resources/etc/devd/noizebox-usb.conf \
 		Noizebox/Resources/etc/noizebox.conf \
 		Noizebox/Resources/soundfont.conf \
@@ -53,7 +53,7 @@ post-extract:
 	@$(MV) $(WRKSRC_fluidsynth)/* $(WRKSRC)/fluidsynth/
 
 do-install:
-	@cd $(WRKSRC) && ${GMAKE} bintree
+	@cd $(WRKSRC) && ${MAKE} bintree
 	@cd $(WRKSRC) && ${COPYTREE_BIN} ./Noizebox  $(STAGEDIR)$(PREFIX)
 	@${CHMOD} 644  $(STAGEDIR)$(PREFIX)/Noizebox/Resources/*.conf
 	@${CHMOD} 644  $(STAGEDIR)$(PREFIX)/Noizebox/Resources/etc/*.conf
