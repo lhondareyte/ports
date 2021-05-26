@@ -24,7 +24,6 @@ CONFIGURE_ARGS=	--disable-static \
 		--disable-fts3 \
 		--disable-fts4 \
 		--disable-fts5 \
-		--disable-tcl \
 		--disable-json1
 MAKE_JOBS_UNSAFE=	yes
 INSTALL_TARGET=	install-strip
