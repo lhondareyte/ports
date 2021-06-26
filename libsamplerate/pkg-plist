@@ -1,6 +1,5 @@
 include/samplerate.h
-lib/libsamplerate.a
 lib/libsamplerate.so
 lib/libsamplerate.so.0
-lib/libsamplerate.so.0.1.8
+lib/libsamplerate.so.0.2.1
 libdata/pkgconfig/samplerate.pc

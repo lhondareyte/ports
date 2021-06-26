@@ -1,10 +1,9 @@
 # Created by: <dmagda+libsamplerate@ee.ryerson.ca>
-# $FreeBSD: head/audio/libsamplerate/Makefile 462779 2018-02-24 09:02:59Z amdmi3 $
 
 PORTNAME=	libsamplerate
-PORTVERSION=	0.1.9
+DISTVERSION=	0.2.1
 CATEGORIES=	audio
-MASTER_SITES=	http://www.mega-nerd.com/SRC/
+MASTER_SITES=	https://github.com/libsndfile/${PORTNAME}/releases/download/${DISTVERSION}/
 
 MAINTAINER=	multimedia@FreeBSD.org
 COMMENT=	Secret Rabbit Code: a Sample Rate Converter for audio
@@ -12,16 +11,12 @@ COMMENT=	Secret Rabbit Code: a Sample Rate Converter for audio
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		cpe libtool pathfix pkgconfig
-USE_LDCONFIG=	yes
-CPE_VENDOR=	${CPE_PRODUCT}_project
-GNU_CONFIGURE=	yes
-INSTALL_TARGET=	install-strip
-TEST_TARGET=	check
+USES=		cmake cpe pkgconfig tar:bz2
 
-MAKE_ARGS+=	htmldocdir=${PREFIX}/share/doc/libsamplerate
-CONFIGURE_ARGS+=	--disable-cpu-clip
-CONFIGURE_ARGS+=	--disable-fftw
-CONFIGURE_ARGS+=	--disable-sndfile
+CPE_VENDOR=	${CPE_PRODUCT}_project
+
+USE_LDCONFIG=	yes
+
+CMAKE_ON=	BUILD_SHARED_LIBS LIBSAMPLERATE_INSTALL
 
 .include <bsd.port.mk>
