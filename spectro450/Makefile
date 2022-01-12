@@ -3,15 +3,19 @@
 
 PORTNAME=	spectro450
 PORTVERSION=	0.1
+PORTREVISION=	3
 CATEGORIES=	sysutils
+MASTER_SITES=	GH
 
 MAINTAINER=	lhondareyte@isp.net.invalid
-COMMENT=	Spectro450 Appliance base
+COMMENT=	Spectro450 Core Appliance
+
+LICENSE=	BSD
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	spectro450-core
-GH_TAGNAME=	e22e007
+GH_TAGNAME=	95b74be
 
 PLIST_FILES=    etc/rc.d/spectro450 \
 		etc/devd/spectro450.conf \
