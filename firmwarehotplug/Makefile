@@ -1,8 +1,7 @@
 # Created by: Hondareyte
-# $FreeBSD$
 
 PORTNAME=	firmwarehotplug
-PORTVERSION=	0.1b
+PORTVERSION=	0.1c
 CATEGORIES=	audio
 MASTER_SITES=	GH
 
@@ -14,7 +13,7 @@ LICENSE=	GPLv2
 BUILD_DEPENDS= 	sdcc:lang/sdcc
 RUN_DEPENDS=	fxload:misc/fxload
 
-USES=		gmake pkgconfig
+MAKE_JOBS_UNSAFE=yes
 
 NO_ARCH=	yes
 
