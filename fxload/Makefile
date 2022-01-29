@@ -13,9 +13,8 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USE_GITHUB=     yes
 GH_ACCOUNT=     lhondareyte
 GH_PROJECT=     fxload
-GH_TAGNAME=     c0ee5b5
+GH_TAGNAME=     8d4597d
 
-USES=		gmake
 SUB_FILES=	pkg-message
 
 do-install:
