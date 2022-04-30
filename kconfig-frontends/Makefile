@@ -13,7 +13,7 @@ LICENSE_FILE=   ${WRKSRC}/COPYING
 
 RUN_DEPENDS=	bash:shells/bash
 
-USES=		pkgconfig gmake libtool autoreconf tar:bzip2
+USES=		pkgconfig gmake libtool autoreconf tar:bzip2 gperf
 
 USE_GITLAB=	yes
 GL_ACCOUNT=	ymorin
