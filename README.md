@@ -1,7 +1,7 @@
 # Miscellaneous FreeBSD Ports
 
 * [as31](https://www.pjrc.com/tech/8051/tools/as31_old.html) : An Intel 8031/8051 assembler
-* [beatrix](https:/github.com/lhondareyte/beatrix.git) : B3 organ simulator
+* [beatrix](https://people.dsv.su.se/~fk/beatrix_home.html) : B3 organ simulator
 * [db5](https://download.oracle.com/berkeley-db/) : Strip down version of Berkeley DB (almost library)
 * [dvm1200](https://github.com/lhondareyte/dvm1200) : Velleman DVM1200 command line interface
 * [fxload](https://github.com/lhondareyte/firmwarehotplug) : Firmware downloader for Cypress EZ-USB devices
