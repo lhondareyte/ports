@@ -1,9 +1,0 @@
-lib/db5/libdb-%%BDBVER%%.so
-lib/db5/libdb-%%BDBVER%%.so.0
-lib/db5/libdb-%%BDBVER%%.so.0.0.0
-lib/db5/libdb-%%BDBMAJ%%.so
-lib/db5/libdb.so
-lib/libdb-%%BDBMAJ%%.so
-lib/libdb-%%BDBMAJ%%.so.0
-lib/libdb-%%BDBVER%%.so
-lib/libdb-%%BDBVER%%.so.0
