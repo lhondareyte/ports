@@ -10,9 +10,6 @@ MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	B3 organ simulator
 
 ALL_TARGET=	$(PORTNAME)
-PLIST_FILES=    beatrix \
-		default.cfg \
-		README.txt
 
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
