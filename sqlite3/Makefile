@@ -2,11 +2,12 @@
 # $FreeBSD: head/databases/sqlite3/Makefile 486622 2018-12-04 18:02:14Z swills $
 
 PORTNAME=	sqlite3
-DISTVERSION=	3.35.5
+DISTVERSION=	3.39.2
 PORTREVISION=   0
 PORTEPOCH=      1
 CATEGORIES=	databases
-MASTER_SITES=   https://www.sqlite.org/2021/ https://www2.sqlite.org/2021/ https://www3.sqlite.org/2021/
+YEAR=		2022
+MASTER_SITES=   https://www.sqlite.org/${YEAR}/ https://www2.sqlite.org/${YEAR}/ https://www3.sqlite.org/${YEAR}/
 DISTNAME=       sqlite-autoconf-${PORTVERSION:C/\.([[:digit:]])[[:>:]]/0\1/g:S/.//g}00
 
 MAINTAINER=	lhondareyte@isp.net.invalid
