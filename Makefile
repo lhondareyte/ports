@@ -2,19 +2,22 @@
 # $Id$
 #
 PACKAGES=	as31 \
-		db5 \
+		beatrix \
 		dvm1200 \
+		fxload \
 		firmwarehotplug \
+		jack2 \
+		jackit \
+		jack_umidi \
 		kconfig-frontends \
 		libsamplerate \
+		mailsend \
 		minipro \
 		mmm \
 		noizebox \
 		py-kwalify \
 		smart-psu \
 		spectro450 \
-		jackit \
-		jack_umidi \
 		sqlite3
 
 package:

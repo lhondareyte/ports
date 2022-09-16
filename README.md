@@ -5,7 +5,8 @@
 * [dvm1200](https://github.com/lhondareyte/dvm1200) : Velleman DVM1200 command line interface
 * [fxload](https://github.com/lhondareyte/firmwarehotplug) : Firmware downloader for Cypress EZ-USB devices
 * [firmwarehotplug](https://github.com/lhondareyte/firmwarehotplug) : Open-source Firmwares for M-AUDIO Midi interfaces
-* [jackit](https://jackaudio.org) : Specific version with minimum dependencies
+* [jackit](https://jackaudio.org) : Specific version with minimum dependencies (deprecated)
+* [jack2](https://jackaudio.org) : Specific version with minimum dependencies
 * [jack_umidi](http://www.selasky.org/hans_petter) : Specific version without options
 * [kconfig-frontends](http://ymorin.is-a-geek.org/projects/kconfig-frontends) : Required to build [NuttX](https://nuttx.org)
 * [libsamplerate](http://www.mega-nerd.com/SRC/) : Specific strip down version
@@ -20,10 +21,18 @@
 
 # Howto
 
+To build all packages : 
+
+```
+sudo make fetch
+make package
+```
+
 To build a specific package, just type:
 
 ```
 cd <port>
+sudo make fetch
 make package
 ```
 
