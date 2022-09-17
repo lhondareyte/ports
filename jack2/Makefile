@@ -5,7 +5,6 @@ CATEGORIES=	audio
 
 MAINTAINER=	dev@submerge.ch
 COMMENT=	Low latency audio server
-WWW=		https://jackaudio.org/
 
 LICENSE=	GPLv2 LGPL21
 LICENSE_COMB=	multi
@@ -29,9 +28,9 @@ SHEBANG_LANG=	python3
 
 CONFIGURE_ARGS=	--celt=no --sndfile=no --samplerate=yes \
 		--readline=no --example-tools=no \
-		--alsa=no 
+		--alsa=no
 
-OPTIONS_DEFINE= 
+OPTIONS_DEFINE=
 OPTIONS_SUB=	yes
 
 .include <bsd.port.pre.mk>
