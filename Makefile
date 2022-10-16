@@ -7,7 +7,6 @@ PACKAGES=	as31 \
 		fxload \
 		firmwarehotplug \
 		jack2 \
-		jackit \
 		jack_umidi \
 		kconfig-frontends \
 		libsamplerate \
