@@ -12,6 +12,7 @@ COMMENT=	Spectro450 Core Appliance
 
 LICENSE=	BSD
 
+USES=		sqlite3
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	spectro450-core
