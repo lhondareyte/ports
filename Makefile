@@ -6,7 +6,7 @@ PACKAGES=	as31 \
 		dvm1200 \
 		fxload \
 		firmwarehotplug \
-		jack2 \
+		jack \
 		jack_umidi \
 		kconfig-frontends \
 		libsamplerate \
