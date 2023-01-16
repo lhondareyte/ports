@@ -14,7 +14,6 @@ LIB_DEPENDS=	libsamplerate.so:audio/libsamplerate \
 		libsysinfo.so:devel/libsysinfo
 
 USES=		compiler:c11 pkgconfig python:3.4+ shebangfix waf
-RUN_DEPENDS=
 USE_LDCONFIG=	yes
 USE_RC_SUBR=	jackd
 
@@ -24,6 +23,8 @@ GH_PROJECT=	jack2
 
 CFLAGS+=	-fPIC
 CPPFLAGS+=	-I${LOCALBASE}/include
+
+PKG_IGNORE_DEPENDS= lang/python39
 
 CONFIGURE_ARGS=	--celt=no --sndfile=no --samplerate=yes \
 		--readline=no --example-tools=no \
