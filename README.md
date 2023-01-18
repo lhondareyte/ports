@@ -5,6 +5,7 @@
 * [dvm1200](https://github.com/lhondareyte/dvm1200) : Velleman DVM1200 command line interface
 * [fxload](https://github.com/lhondareyte/firmwarehotplug) : Firmware downloader for Cypress EZ-USB devices
 * [firmwarehotplug](https://github.com/lhondareyte/firmwarehotplug) : Open-source Firmwares for M-AUDIO Midi interfaces
+* [hex2bin](https://github.com/bradgrantham/hex2bin) : Get blobs for regions in an Intel HEX 
 * [jack2](https://jackaudio.org) : Specific version with minimum dependencies
 * [jack_umidi](http://www.selasky.org/hans_petter) : Specific version without options
 * [kconfig-frontends](http://ymorin.is-a-geek.org/projects/kconfig-frontends) : Required to build [NuttX](https://nuttx.org)
