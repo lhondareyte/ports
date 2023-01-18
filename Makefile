@@ -6,6 +6,7 @@ PACKAGES=	as31 \
 		dvm1200 \
 		fxload \
 		firmwarehotplug \
+		hex2bin \
 		jack \
 		jack_umidi \
 		kconfig-frontends \
