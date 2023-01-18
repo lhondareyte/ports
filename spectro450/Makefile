@@ -1,22 +1,22 @@
 # Created by: Hondareyte
-# $FreeBSD$
 
 PORTNAME=	spectro450
-PORTVERSION=	0.1
-PORTREVISION=	3
+DISTVERSION=	g20230118
 CATEGORIES=	sysutils
 MASTER_SITES=	GH
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Spectro450 Core Appliance
 
-LICENSE=	BSD
+LICENSE=	BSD2CLAUSE
 
-USES=		sqlite3
+USE_DEPENDS=	sqlite3
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	spectro450-core
-GH_TAGNAME=	95b74be
+GH_TAGNAME=	3f1d100
+
+USE_LDCONFIG=	yes
 
 PLIST_FILES=    etc/rc.d/spectro450 \
 		etc/devd/spectro450.conf \
@@ -25,9 +25,11 @@ PLIST_FILES=    etc/rc.d/spectro450 \
 		libexec/spectro450/dialog \
 		libexec/spectro450/firstboot \
 		libexec/spectro450/pkgmgt \
+		libexec/spectro450/midimgt \
 		libexec/spectro450/libapp.sh \
+		libexec/spectro450/libsql.sh \
 		bin/openapp \
-		bin/closeapp 
+		bin/closeapp
 
 do-build:
 
