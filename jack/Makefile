@@ -1,6 +1,6 @@
 PORTNAME=	jackit
 DISTVERSIONPREFIX=	v
-DISTVERSION=	1.9.21
+DISTVERSION=	1.9.22
 CATEGORIES=	audio
 
 MAINTAINER=	dev@submerge.ch
@@ -26,8 +26,7 @@ CPPFLAGS+=	-I${LOCALBASE}/include
 
 PKG_IGNORE_DEPENDS= lang/python39
 
-CONFIGURE_ARGS=	--celt=no --sndfile=no --samplerate=yes \
-		--readline=no --example-tools=no \
+CONFIGURE_ARGS=	--celt=no --samplerate=yes \
 		--alsa=no --opus=no
 
 .include <bsd.port.pre.mk>
