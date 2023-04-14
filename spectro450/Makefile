@@ -17,6 +17,7 @@ GH_PROJECT=	spectro450-core
 GH_TAGNAME=	3f1d100
 
 USE_LDCONFIG=	yes
+USE=		sqlite3
 
 PLIST_FILES=    etc/rc.d/spectro450 \
 		etc/devd/spectro450.conf \
