@@ -11,11 +11,12 @@ COMMENT=	simple command line mail sender
 LICENSE=	BSD
 
 GNU_CONFIGURE=  yes
+CONFIGURE_ARGS= --with-openssl=/usr
 
 USE_GITHUB=     yes
 GH_ACCOUNT=     muquit
 GH_PROJECT=     ${PORTNAME}
-GH_TAGNAME=     ${PORTVERSION}
+GH_TAGNAME=     06da014
 PLIST_FILES=	bin/mailsend \
 		man/man1/mailsend.1.gz
 
