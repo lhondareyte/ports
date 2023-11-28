@@ -1,14 +1,14 @@
 # Created by: Hondareyte
-# $FreeBSD$
 
 PORTNAME=	mailsend
 PORTVERSION=	1.19
 CATEGORIES=	misc
 
 MAINTAINER=	lhondareyte@isp.net.invalid
-COMMENT=	simple command line mail sender
+COMMENT=	Simple command line mail sender
+WWW=		https://github.com/muquit/mailsend
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --with-openssl=/usr

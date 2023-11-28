@@ -1,5 +1,4 @@
 # Created by: Hondareyte
-# $FreeBSD$
 
 PORTNAME=	mmm
 PORTVERSION=	0.3
@@ -9,6 +8,7 @@ MASTER_SITES=	GH
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Minimal MIDI monitor
+WWW=		https://github.com/lhondareyte/mmm
 
 LICENSE=	MIT
 

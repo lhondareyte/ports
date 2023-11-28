@@ -1,5 +1,4 @@
 # Created by: Hondareyte
-# $FreeBSD$
 
 PORTNAME=	dvm1200
 PORTVERSION=	1.0
@@ -8,6 +7,7 @@ CATEGORIES=	sysutils
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	CLI for VELLEMAN DVM1200
+WWW= 		http://github.com/lhondareyte/dvm1200.git
 
 LICENSE=	MIT
 

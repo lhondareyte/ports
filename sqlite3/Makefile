@@ -2,7 +2,6 @@
 
 PORTNAME=	sqlite3
 DISTVERSION=	3.41.2
-PORTREVISION=   0
 PORTEPOCH=      1
 CATEGORIES=	databases
 YEAR=		2023
@@ -15,7 +14,7 @@ WWW=		https://www.sqlite.org/
 
 LICENSE=	PD
 
-USES=		libtool ncurses pathfix 
+USES=		libtool ncurses pathfix
 USE_LDCONFIG=	yes
 
 GNU_CONFIGURE=	yes

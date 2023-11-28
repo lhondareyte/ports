@@ -1,1 +1,3 @@
-Get blobs for regions in an Intel HEX
+hex2bin extracts all the bytes in a HEX file for a given range of addresses.
+Those addresses are output into a binary file, suitable for programming with
+the Minipro TL866CS or possibly using other tools.
