@@ -9,7 +9,6 @@ PACKAGES=	as31 \
 		hex2bin \
 		jack \
 		jack_umidi \
-		kconfig-frontends \
 		libsamplerate \
 		mailsend \
 		minipro \

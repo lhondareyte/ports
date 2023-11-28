@@ -8,7 +8,6 @@
 * [hex2bin](https://github.com/bradgrantham/hex2bin) : Get blobs for regions in an Intel HEX 
 * [jack2](https://jackaudio.org) : Specific version with minimum dependencies
 * [jack_umidi](http://www.selasky.org/hans_petter) : Specific version without options
-* [kconfig-frontends](http://ymorin.is-a-geek.org/projects/kconfig-frontends) : Required to build [NuttX](https://nuttx.org)
 * [libsamplerate](http://www.mega-nerd.com/SRC/) : Specific strip down version
 * [mailsend](https://github.com/muquit/mailsend/) : Simple command line mail sender
 * [minipro](https://gitlab.com/DavidGriffith/minipro/) : do not use since there is an official port
