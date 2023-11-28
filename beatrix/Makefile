@@ -1,5 +1,4 @@
 # Created by: Hondareyte
-# $FreeBSD$
 
 PORTNAME=	beatrix
 PORTVERSION=	0.41
@@ -8,6 +7,7 @@ CATEGORIES=	audio
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	B3 organ simulator
+WWW= 		https://people.dsv.su.se/~fk/beatrix_home.html
 
 ALL_TARGET=	$(PORTNAME)
 
@@ -33,14 +33,15 @@ PLIST_FILES=    Beatrix/Contents/FreeBSD/$(ARCH)/beatrix \
 		Beatrix/Resources/etc/osc-xwave.cfg \
 		Beatrix/Resources/etc/whirl-mellow.cfg \
 		Beatrix/Resources/etc/whirl-sharp.cfg \
-		Beatrix/Resources/etc/whirl-x100.cfg 
+		Beatrix/Resources/etc/whirl-x100.cfg
 
 do-fetch:
 	$(RM)r $(PORTNAME)-$(PORTVERSION) && \
-	git clone  git@github.com:$(GH_ACCOUNT)/$(GH_PROJECT).git $(PORTNAME)-$(PORTVERSION)
+	git clone  git@github.com:$(GH_ACCOUNT)/$(GH_PROJECT).git \
+	$(PORTNAME)-$(PORTVERSION)
 
-checksum: 
-do-extract: 
+checksum:
+do-extract:
 	$(MV) $(PORTNAME)-$(PORTVERSION) work
 do-patch:
 

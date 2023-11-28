@@ -1,5 +1,4 @@
 # Created by: Hondareyte
-# $FreeBSD$
 
 PORTNAME=	pykwalify
 PORTVERSION=	1.7.0
@@ -9,6 +8,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Python lib/cli for JSON/YAML schema validation
+WWW=		http://www.kuwata-lab.com/kwalify/
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE

@@ -7,6 +7,7 @@ MASTER_SITES=	GH
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Firmwares for M-AUDIO MIDI usb interfaces
+WWW=		http://sourceforge.net/projects/linux-hotplug/
 
 LICENSE=	GPLv2
 

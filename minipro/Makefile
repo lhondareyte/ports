@@ -1,5 +1,4 @@
 # Created by: Hondareyte
-# $FreeBSD: head/sysutils/minipro/Makefile 502749 2019-05-26 19:56:45Z swills $
 
 PORTNAME=	minipro
 PORTVERSION=	0.3
@@ -7,6 +6,7 @@ CATEGORIES=	sysutils
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	CLI for MiniPRO TL866xx chip programmers
+WWW=		https://gitlab.com/DavidGriffith/minipro
 
 LICENSE=	GPLv3
 

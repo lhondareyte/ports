@@ -11,7 +11,7 @@ WWW=   		https://github.com/bradgrantham/hex2bin/archive/refs/heads/
 
 USE_GITHUB=	yes
 GH_ACCOUNT= 	bradgrantham
-GH_PROJECT=	hex2bin 
+GH_PROJECT=	hex2bin
 GH_TAGNAME= 	99811a7
 
 PLIST_FILES=	bin/hex2bin \

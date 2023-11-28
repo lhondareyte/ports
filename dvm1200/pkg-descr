@@ -1,3 +1,3 @@
-Velleman DVM1200 command line interface
-
-WWW: http://github.com/lhondareyte/dvm1200.git
+Command line interface for the Velleman DVM1200 digital multimeter (DM) with
+usb interface. This utility read data from the DM interface and convert it
+ to CSV format.

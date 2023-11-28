@@ -1,5 +1,4 @@
 # Created by: Hondareyte
-# $FreeBSD$
 
 PORTNAME=	as31
 PORTVERSION=	2.3.1
@@ -7,6 +6,7 @@ CATEGORIES=	devel
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Assembler for the Intel 8031/8051
+WWW=		https://www.pjrc.com/tech/8051/tools/as31_old.html
 
 LICENSE=	BSD4CLAUSE
 
