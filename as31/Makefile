@@ -8,7 +8,7 @@ CATEGORIES=	devel
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Assembler for the Intel 8031/8051
 
-LICENSE=	BSD
+LICENSE=	BSD4CLAUSE
 
 USES=		gmake
 GNU_CONFIGURE=  yes
