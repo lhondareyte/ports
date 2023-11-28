@@ -13,8 +13,8 @@ LICENSE=	BSD2CLAUSE
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
-GH_TAGNAME=	75835a3
-GH_TUPLE=	FluidSynth:fluidsynth:v2.2.8:fluidsynth
+GH_TAGNAME=	13b7ea4
+GH_TUPLE=	FluidSynth:fluidsynth:v2.3.4:fluidsynth
 
 PKG_DEPENDS=	spectro450:sysutils/spectro450
 
