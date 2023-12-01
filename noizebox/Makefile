@@ -18,7 +18,7 @@ GH_TUPLE=	FluidSynth:fluidsynth:v2.3.4:fluidsynth
 
 PKG_DEPENDS=	spectro450:sysutils/spectro450
 
-BUNDLE_LIBS=    yes
+BUNDLE_LIBS=    no
 USE_LDCONFIG=   no
 
 PLIST_FILES=    Noizebox/noizebox  \
@@ -27,25 +27,25 @@ PLIST_FILES=    Noizebox/noizebox  \
 		Noizebox/Resources/etc/noizebox.conf \
 		Noizebox/Resources/soundfont.conf \
 		Noizebox/Resources/mksf2db.sh \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libc.so.7 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libc++.so.1 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libcxxrt.so.1 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libfluidsynth.so.3 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libfluidsynth.so.3.1.1 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libgcc_s.so.1 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libglib-2.0.so.0 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libgthread-2.0.so.0 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libiconv.so.2 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libintl.so.8 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libm.so.5 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libncursesw.so.9 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libomp.so \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libpcre.so.1 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/librt.so.1 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libsqlite3.so.0 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libthr.so.3 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libutil.so.9 \
-		Noizebox/Frameworks/FreeBSD/$(ARCH)/libz.so.6
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libsqlite3.so.0 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libncursesw.so.9 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libtinfow.so.9 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libthr.so.3 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libc.so.7 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libz.so.6 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libm.so.5 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libfluidsynth.so.3 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libomp.so \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libglib-2.0.so.0 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libgthread-2.0.so.0 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libintl.so.8 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libc++.so.1 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libcxxrt.so.1 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libgcc_s.so.1 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libiconv.so.2 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libpcre2-8.so.0 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libutil.so.9 \
+		Noizebox/Frameworks/FreeBSD/${ARCH}/libfluidsynth.so.3.2.2 \
 
 PREFIX=		/Applications
 
