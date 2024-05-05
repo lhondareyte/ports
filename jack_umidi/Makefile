@@ -1,16 +1,17 @@
 # Created by: Hans Petter Selasky <hselasky@FreeBSD.org>
 
 PORTNAME=	jack_umidi
-PORTVERSION=	1.1.0
+PORTVERSION=	v1.1.2
 CATEGORIES=	audio
-MASTER_SITES=	http://www.selasky.org/hans_petter/distfiles/ \
-		http://home.selasky.org/distfiles/
 
 MAINTAINER=	hselasky@FreeBSD.org
 COMMENT=	Daemon that converts a raw MIDI device into a JACK MIDI device
 WWW=		http://www.selasky.org/hans_petter/midistudio
 
 LICENSE=	BSD2CLAUSE
+
+USE_GITHUB=     yes
+GH_ACCOUNT=     hselasky
 
 LIB_DEPENDS=	libjack.so:audio/jack
 
