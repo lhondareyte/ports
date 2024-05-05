@@ -1,7 +1,7 @@
 # Created by: Ying-Chieh Liao <ijliao@FreeBSD.org>
 
 PORTNAME=	sqlite3
-DISTVERSION=	3.41.2
+DISTVERSION=	3.44.0
 PORTEPOCH=      1
 CATEGORIES=	databases
 YEAR=		2023
