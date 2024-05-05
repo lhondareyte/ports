@@ -13,7 +13,6 @@
 * [minipro](https://gitlab.com/DavidGriffith/minipro/) : do not use since there is an official port
 * [mmm](https://github.com/lhondareyte/mmm) : Simple MIDI monitor
 * [noizebox](https://github.com/lhondareyte/noizebox) : Old school synthesizer based on ncurses and fluidsynth
-* [py-kwalify](https://pypi.org/project/pykwalify/) : Python module required to build [Zephyr](https://www.zephyrproject.org)
 * [smart-psu](https://github.com/lhondareyte/smart-psu) : Smart PSU for ARM board
 * [spectro450](https://github.com/lhondareyte/spectro450-core)
 * [sqlite3](https://www.sqlite.org) : Specific version without GNU dependencies
