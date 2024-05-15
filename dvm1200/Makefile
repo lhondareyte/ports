@@ -1,7 +1,7 @@
-# Created by: Hondareyte
+# Created by: Luc Hondareyte
 
 PORTNAME=	dvm1200
-PORTVERSION=	1.0
+PORTVERSION=	1.1
 #PORTREVISION=	2
 CATEGORIES=	sysutils
 
@@ -14,12 +14,9 @@ LICENSE=	MIT
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
-GH_TAGNAME=	c99a720
-PLIST_FILES=    bin/dvm1200 \
-		man/man1/dvm1200.1.gz
+GH_TAGNAME=	c1ccbe1
 
-do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/$(PORTNAME) ${STAGEDIR}${PREFIX}/bin
-	${GZIP_CMD} ${WRKSRC}/$(PORTNAME).1
-	${INSTALL_MAN} ${WRKSRC}/$(PORTNAME).1.gz ${STAGEDIR}${MANPREFIX}/man/man1
+PLIST_FILES=    bin/dvm1200 \
+		share/man/man1/dvm1200.1.gz
+
 .include <bsd.port.mk>
