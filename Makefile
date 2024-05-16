@@ -14,7 +14,6 @@ PACKAGES=	as31 \
 		minipro \
 		mmm \
 		noizebox \
-		py-kwalify \
 		smart-psu \
 		spectro450 \
 		sqlite3
