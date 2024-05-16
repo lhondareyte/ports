@@ -2,7 +2,7 @@
 
 PORTNAME=	mmm
 PORTVERSION=	0.3
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	audio
 MASTER_SITES=	GH
 
@@ -15,13 +15,7 @@ LICENSE=	MIT
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	mmm
-GH_TAGNAME=	68729b8
+GH_TAGNAME=	98a3e4e
 PLIST_FILES=	bin/mmm
-
-do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME} ${STAGEDIR}${PREFIX}/bin
-
-post-install:
-	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/${PORTNAME}
 
 .include <bsd.port.mk>
