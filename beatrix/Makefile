@@ -4,6 +4,7 @@ PORTNAME=	beatrix
 PORTVERSION=	0.41
 #PORTREVISION=	1
 CATEGORIES=	audio
+MASTER_SITES=	https://github.com/lhondareyte/beatrix.git/
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	B3 organ simulator
@@ -36,13 +37,12 @@ PLIST_FILES=    Beatrix/Contents/FreeBSD/$(ARCH)/beatrix \
 		Beatrix/Resources/etc/whirl-x100.cfg
 
 do-fetch:
+do-extract:
 	$(RM)r $(PORTNAME)-$(PORTVERSION) && \
 	git clone  git@github.com:$(GH_ACCOUNT)/$(GH_PROJECT).git \
-	$(PORTNAME)-$(PORTVERSION)
+	$(WRKSRC)
 
 checksum:
-do-extract:
-	$(MV) $(PORTNAME)-$(PORTVERSION) work
 do-patch:
 
 .include <bsd.port.mk>
