@@ -20,7 +20,7 @@ PREFIX=		/Applications
 
 NO_LICENSES_INSTALL=	yes
 
-PLIST_FILES=    Beatrix/Contents/FreeBSD/$(ARCH)/beatrix \
+PLIST_FILES=    Beatrix/Contents/$(OPSYS)/$(ARCH)/beatrix \
 		Beatrix/Resources/etc/default.cfg \
 		Beatrix/Resources/etc/fartybass.cfg \
 		Beatrix/Resources/etc/osc-bassy.cfg \
