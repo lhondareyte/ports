@@ -16,10 +16,7 @@ GH_PROJECT=	$(PORTNAME)
 GH_TAGNAME=	13b7ea4
 GH_TUPLE=	FluidSynth:fluidsynth:v2.3.4:fluidsynth
 
-#PKG_DEPENDS=	spectro450:sysutils/spectro450
-
 BUNDLE_LIBS=    no
-USE_LDCONFIG=   no
 
 PLIST_FILES=    Noizebox/noizebox  \
 		Noizebox/Contents/FreeBSD/$(ARCH)/noizebox \
