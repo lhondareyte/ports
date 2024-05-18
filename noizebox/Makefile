@@ -19,30 +19,30 @@ GH_TUPLE=	FluidSynth:fluidsynth:v2.3.4:fluidsynth
 BUNDLE_LIBS=    no
 
 PLIST_FILES=    Noizebox/noizebox  \
-		Noizebox/Contents/FreeBSD/$(ARCH)/noizebox \
+		Noizebox/Contents/$(OPSYS)/$(ARCH)/noizebox \
 		Noizebox/Resources/etc/devd/noizebox-usb.conf \
 		Noizebox/Resources/etc/noizebox.conf \
 		Noizebox/Resources/soundfont.conf \
 		Noizebox/Resources/mksf2db.sh \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libsqlite3.so.0 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libncursesw.so.9 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libtinfow.so.9 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libthr.so.3 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libc.so.7 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libz.so.6 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libm.so.5 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libfluidsynth.so.3 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libomp.so \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libglib-2.0.so.0 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libgthread-2.0.so.0 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libintl.so.8 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libc++.so.1 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libcxxrt.so.1 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libgcc_s.so.1 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libiconv.so.2 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libpcre2-8.so.0 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libutil.so.9 \
-		Noizebox/Frameworks/FreeBSD/${ARCH}/libfluidsynth.so.3.2.2 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libsqlite3.so.0 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libncursesw.so.9 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libtinfow.so.9 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libthr.so.3 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libc.so.7 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libz.so.6 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libm.so.5 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libfluidsynth.so.3 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libomp.so \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libglib-2.0.so.0 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libgthread-2.0.so.0 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libintl.so.8 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libc++.so.1 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libcxxrt.so.1 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libgcc_s.so.1 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libiconv.so.2 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libpcre2-8.so.0 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libutil.so.9 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libfluidsynth.so.3.2.2 \
 
 PREFIX=		/Applications
 
