@@ -16,7 +16,7 @@ GH_PROJECT=	$(PORTNAME)
 GH_TAGNAME=	13b7ea4
 GH_TUPLE=	FluidSynth:fluidsynth:v2.3.4:fluidsynth
 
-PKG_DEPENDS=	spectro450:sysutils/spectro450
+#PKG_DEPENDS=	spectro450:sysutils/spectro450
 
 BUNDLE_LIBS=    no
 USE_LDCONFIG=   no
@@ -66,5 +66,7 @@ do-install:
 	@${CHMOD} 644  $(STAGEDIR)$(PREFIX)/Noizebox/Resources/*.conf
 	@${CHMOD} 644  $(STAGEDIR)$(PREFIX)/Noizebox/Resources/etc/*.conf
 	@${CHMOD} 644  $(STAGEDIR)$(PREFIX)/Noizebox/Resources/etc/devd/*.conf
+
+stage-qa:
 
 .include <bsd.port.mk>
