@@ -14,7 +14,7 @@ LICENSE=	MIT
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
-GH_TAGNAME=	c1ccbe1
+GH_TAGNAME=	4271dd1
 
 PLIST_FILES=    bin/dvm1200 \
 		share/man/man1/dvm1200.1.gz
