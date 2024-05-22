@@ -2,7 +2,7 @@
 
 PORTNAME=	dvm1200
 PORTVERSION=	1.1
-#PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	sysutils
 
 MAINTAINER=	lhondareyte@isp.net.invalid
