@@ -1,7 +1,7 @@
 # Miscellaneous FreeBSD Ports
 
 * [as31](https://www.pjrc.com/tech/8051/tools/as31_old.html) : An Intel 8031/8051 assembler
-* [beatrix](https://people.dsv.su.se/~fk/beatrix_home.html) : B3 organ simulator
+* [beatrix](https://people.dsv.su.se/~fk/beatrix_home.html) : B3 organ emulator
 * [dvm1200](https://github.com/lhondareyte/dvm1200) : Velleman DVM1200 command line interface
 * [fxload](https://github.com/lhondareyte/firmwarehotplug) : Firmware downloader for Cypress EZ-USB devices
 * [firmwarehotplug](https://github.com/lhondareyte/firmwarehotplug) : Open-source Firmwares for M-AUDIO Midi interfaces
