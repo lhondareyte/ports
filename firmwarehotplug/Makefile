@@ -2,6 +2,7 @@
 
 PORTNAME=	firmwarehotplug
 PORTVERSION=	0.1c
+PORTREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	GH
 
@@ -21,7 +22,7 @@ NO_ARCH=	yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	firmwarehotplug
-GH_TAGNAME=	${PORTVERSION}
+GH_TAGNAME=	1240f93
 
 do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/share/doc/${PORTNAME}
