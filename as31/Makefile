@@ -2,6 +2,7 @@
 
 PORTNAME=	as31
 PORTVERSION=	2.3.1
+PORTREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	lhondareyte@isp.net.invalid
@@ -22,10 +23,10 @@ PLIST_FILES=	bin/as31 \
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME}/${PORTNAME} ${STAGEDIR}${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/${PORTNAME}/${PORTNAME}.1 ${STAGEDIR}${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/${PORTNAME}/${PORTNAME}.1 ${STAGEDIR}${PREFIX}/share/man/man1
 
 post-install:
-	@${GZIP_CMD} ${STAGEDIR}${PREFIX}/man/man1/${PORTNAME}.1
+	@${GZIP_CMD} ${STAGEDIR}${PREFIX}/share/man/man1/${PORTNAME}.1
 	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/${PORTNAME}
 
 .include <bsd.port.mk>
