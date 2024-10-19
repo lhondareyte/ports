@@ -2,6 +2,7 @@
 
 PORTNAME=	mailsend
 PORTVERSION=	1.19
+PORTREVISION=	1
 CATEGORIES=	misc
 
 MAINTAINER=	lhondareyte@isp.net.invalid
@@ -18,13 +19,11 @@ GH_ACCOUNT=     muquit
 GH_PROJECT=     ${PORTNAME}
 GH_TAGNAME=     06da014
 PLIST_FILES=	bin/mailsend \
-		man/man1/mailsend.1.gz
+		share/man/man1/mailsend.1.gz
 
 do-install:
-	echo "${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME} ${STAGEDIR}${PREFIX}/bin"
 	${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME} ${STAGEDIR}${PREFIX}/bin
-	echo "${INSTALL_MAN} ${WRKSRC}/doc/${PORTNAME}.1.gz ${STAGEDIR}${PREFIX}/man/man1"
-	${INSTALL_MAN} ${WRKSRC}/doc/${PORTNAME}.1.gz ${STAGEDIR}${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/doc/${PORTNAME}.1.gz ${STAGEDIR}${PREFIX}/share/man/man1
 
 post-install:
 	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/${PORTNAME}
