@@ -19,7 +19,7 @@ GH_ACCOUNT=     lhondareyte
 GH_PROJECT=     as31
 GH_TAGNAME=     ${PORTVERSION}
 PLIST_FILES=	bin/as31 \
-		man/man1/as31.1.gz
+		share/man/man1/as31.1.gz
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME}/${PORTNAME} ${STAGEDIR}${PREFIX}/bin
