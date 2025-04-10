@@ -12,7 +12,6 @@ PACKAGES=	as31 \
 		libsamplerate \
 		mailsend \
 		minipro \
-		mmm \
 		noizebox \
 		smart-psu \
 		spectro450 \
