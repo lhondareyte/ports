@@ -10,7 +10,6 @@
 * [jack_umidi](http://www.selasky.org/hans_petter) : Specific version without options
 * [libsamplerate](http://www.mega-nerd.com/SRC/) : Specific strip down version
 * [mailsend](https://github.com/muquit/mailsend/) : Simple command line mail sender
-* [mmm](https://github.com/lhondareyte/mmm) : Simple MIDI monitor
 * [noizebox](https://github.com/lhondareyte/noizebox) : Old school synthesizer based on ncurses and fluidsynth
 * [smart-psu](https://github.com/lhondareyte/smart-psu) : Smart PSU for ARM board
 * [spectro450](https://github.com/lhondareyte/spectro450-core)
