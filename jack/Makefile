@@ -24,7 +24,7 @@ GH_PROJECT=	jack2
 CFLAGS+=	-fPIC
 CPPFLAGS+=	-I${LOCALBASE}/include
 
-PKG_IGNORE_DEPENDS= lang/python39
+PKG_IGNORE_DEPENDS= lang/python311
 
 CONFIGURE_ARGS=	--celt=no --samplerate=yes \
 		--alsa=no --opus=no
