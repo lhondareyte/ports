@@ -11,7 +11,6 @@ PACKAGES=	as31 \
 		jack_umidi \
 		libsamplerate \
 		mailsend \
-		minipro \
 		noizebox \
 		smart-psu \
 		spectro450 \
