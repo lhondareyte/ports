@@ -17,7 +17,7 @@ LIB_DEPENDS=	libjack.so:audio/jack
 
 USES=		tar:bzip2 uidfix
 PLIST_FILES=	sbin/jack_umidi \
-		man/man8/jack_umidi.8.gz
+		share/man/man8/jack_umidi.8.gz
 
 MAKE_ARGS+=     HAVE_MAN="YES"
 MAKE_ARGS+=     PTHREAD_LIBS="-lpthread"
