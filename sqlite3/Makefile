@@ -4,8 +4,7 @@ PORTNAME=	sqlite3
 DISTVERSION=	3.49.2
 PORTEPOCH=      1
 CATEGORIES=	databases
-YEAR=		2025
-MASTER_SITES=   https://www.sqlite.org/${YEAR}/ https://www2.sqlite.org/${YEAR}/ https://www3.sqlite.org/${YEAR}/
+MASTER_SITES=   https://www.sqlite.org/${_YEAR}/ https://www2.sqlite.org/${_YEAR}/ https://www3.sqlite.org/${_YEAR}/
 DISTNAME=       sqlite-autoconf-${PORTVERSION:C/\.([[:digit:]])[[:>:]]/0\1/g:S/.//g}00
 
 MAINTAINER=	lhondareyte@isp.net.invalid
@@ -16,9 +15,7 @@ LICENSE=	PD
 
 USES=		libtool pathfix
 GNU_CONFIGURE=	yes
-#INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
-
 CONFIGURE_ARGS=	--disable-static \
 		--disable-editline \
 		--disable-readline \
@@ -27,6 +24,8 @@ CONFIGURE_ARGS=	--disable-static \
 		--disable-fts5 \
 		--disable-json
 MAKE_JOBS_UNSAFE=	yes
+
+_YEAR=		2025
 
 PLIST_FILES=    bin/sqlite3 \
 		include/sqlite3.h \
