@@ -13,8 +13,10 @@ LICENSE=	BSD2CLAUSE
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
-GH_TAGNAME=	13b7ea4
-GH_TUPLE=	FluidSynth:fluidsynth:v2.3.4:fluidsynth
+GH_TAGNAME=	da22d56
+GH_TUPLE=	FluidSynth:fluidsynth:v2.4.7:fluidsynth
+
+ALL_TARGET=	modules
 
 BUNDLE_LIBS=    no
 
@@ -42,7 +44,7 @@ PLIST_FILES=    Noizebox/noizebox  \
 		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libiconv.so.2 \
 		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libpcre2-8.so.0 \
 		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libutil.so.9 \
-		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libfluidsynth.so.3.2.2 \
+		Noizebox/Frameworks/$(OPSYS)/${ARCH}/libfluidsynth.so.3.3.7
 
 PREFIX=		/Applications
 
