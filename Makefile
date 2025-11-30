@@ -11,6 +11,8 @@ PACKAGES=	as31 \
 		jack_umidi \
 		libsamplerate \
 		mailsend \
+		memsim2 \
+		memsimctl \
 		noizebox \
 		smart-psu \
 		spectro450 \
