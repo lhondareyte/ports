@@ -2,7 +2,7 @@
 
 PORTNAME=	as31
 PORTVERSION=	2.3.1
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel
 
 MAINTAINER=	lhondareyte@isp.net.invalid
@@ -11,7 +11,6 @@ WWW=		https://www.pjrc.com/tech/8051/tools/as31_old.html
 
 LICENSE=	BSD4CLAUSE
 
-USES=		gmake
 GNU_CONFIGURE=  yes
 
 USE_GITHUB=     yes
