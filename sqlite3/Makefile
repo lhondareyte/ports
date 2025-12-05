@@ -1,8 +1,7 @@
 # Created by: Ying-Chieh Liao <ijliao@FreeBSD.org>
 
 PORTNAME=	sqlite3
-DISTVERSION=	3.49.2
-PORTEPOCH=      1
+DISTVERSION=	3.51.1
 CATEGORIES=	databases
 MASTER_SITES=   https://www.sqlite.org/${_YEAR}/ https://www2.sqlite.org/${_YEAR}/ https://www3.sqlite.org/${_YEAR}/
 DISTNAME=       sqlite-autoconf-${PORTVERSION:C/\.([[:digit:]])[[:>:]]/0\1/g:S/.//g}00
