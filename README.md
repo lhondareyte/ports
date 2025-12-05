@@ -6,8 +6,9 @@
 * [fxload](https://github.com/lhondareyte/firmwarehotplug) : Firmware downloader for Cypress EZ-USB devices
 * [firmwarehotplug](https://github.com/lhondareyte/firmwarehotplug) : Open-source Firmwares for M-AUDIO Midi interfaces
 * [GALasm](https://github.com/daveho/GALasm) : Open-source GAL assembler
-* [hex2bin](https://github.com/bradgrantham/hex2bin) : Get blobs for regions in an Intel HEX 
+* [hex2bin](https://github.com/bradgrantham/hex2bin) : INTEL HEX to binary converter
 * [jack](https://jackaudio.org) : Specific version with minimum dependencies
+* [jackctl](http://github.com/lhondareyte/jackctl.git) : CLI for JACK audio Server
 * [jack_umidi](http://www.selasky.org/hans_petter) : Specific version without options
 * [libsamplerate](http://www.mega-nerd.com/SRC/) : Specific strip down version
 * [mailsend](https://github.com/muquit/mailsend/) : Simple command line mail sender
