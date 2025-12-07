@@ -12,7 +12,7 @@ LICENSE=	BSD2CLAUSE
 
 LIB_DEPENDS=	libjack.so:audio/jack
 
-USES=		tar:bzip2 uidfix
+USES=		uidfix
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	hselasky
