@@ -14,7 +14,7 @@ USE_DEPENDS=	sqlite3
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	spectro450-core
-GH_TAGNAME=	3f1d100
+GH_TAGNAME=	e319000
 
 USE_LDCONFIG=	yes
 USE=		sqlite3
