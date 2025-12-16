@@ -10,6 +10,7 @@ PACKAGES=	as31 \
 		hex2bin \
 		jack \
 		jack_umidi \
+		jackctl \
 		libsamplerate \
 		mailsend \
 		memsim2 \
