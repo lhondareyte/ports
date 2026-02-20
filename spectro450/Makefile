@@ -1,7 +1,7 @@
 # Created by: Hondareyte
 
 PORTNAME=	spectro450
-DISTVERSION=	g20230118
+DISTVERSION=	g20260220
 CATEGORIES=	sysutils
 MASTER_SITES=	GH
 
@@ -14,7 +14,7 @@ USE_DEPENDS=	sqlite3
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	spectro450-core
-GH_TAGNAME=	e319000
+GH_TAGNAME=	01d5ef9
 
 USE_LDCONFIG=	yes
 USE=		sqlite3
