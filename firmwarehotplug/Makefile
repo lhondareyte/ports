@@ -1,7 +1,7 @@
 # Created by: Hondareyte
 
 PORTNAME=	firmwarehotplug
-PORTVERSION=	0.1c
+PORTVERSION=	0.1d
 PORTREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	GH
@@ -22,7 +22,17 @@ NO_ARCH=	yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	firmwarehotplug
-GH_TAGNAME=	1240f93
+GH_TAGNAME=	b2a9d87
+PLIST_FILES=	etc/devd/m-audio.conf \
+		share/fxload/m-audio/ezusbmidi.ihx \
+		share/fxload/m-audio/ezusbmidi1x1.ihx \
+		share/fxload/m-audio/ezusbmidi2x2.ihx \
+		share/fxload/m-audio/m-audio-unified.conf \
+		share/fxload/m-audio/m-audio-original.conf \
+		share/doc/${PORTNAME}/AUTHORS \
+		share/doc/${PORTNAME}/ChangeLog \
+		share/doc/${PORTNAME}/COPYING \
+		share/doc/${PORTNAME}/README
 
 do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/share/doc/${PORTNAME}
