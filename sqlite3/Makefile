@@ -1,7 +1,7 @@
 # Created by: Ying-Chieh Liao <ijliao@FreeBSD.org>
 
 PORTNAME=	sqlite3
-DISTVERSION=	3.51.1
+DISTVERSION=	3.51.3
 PORTEPOCH=      1
 CATEGORIES=	databases
 MASTER_SITES=   https://www.sqlite.org/${_YEAR}/ https://www2.sqlite.org/${_YEAR}/ https://www3.sqlite.org/${_YEAR}/
@@ -25,7 +25,7 @@ CONFIGURE_ARGS=	--disable-static \
 		--disable-json
 MAKE_JOBS_UNSAFE=	yes
 
-_YEAR=		2025
+_YEAR=		2026
 
 PLIST_FILES=    bin/sqlite3 \
 		include/sqlite3.h \
