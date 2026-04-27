@@ -15,11 +15,9 @@ LIB_DEPENDS+=	libjack.so:audio/jack
 USE_GITHUB=	yes
 GH_ACCOUNT=	lhondareyte
 GH_PROJECT=	$(PORTNAME)
-GH_TAGNAME=	c3a63f6
+GH_TAGNAME=	bcdbc42
 
 PLIST_FILES=    bin/jackctl \
 		share/man/man1/jackctl.1.gz
-do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME} ${STAGEDIR}${PREFIX}/bin
 
 .include <bsd.port.mk>
