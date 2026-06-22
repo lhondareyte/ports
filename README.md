@@ -19,6 +19,7 @@
 * [sfubar](https://github.com/freepats/tools.git)
 * [spectro450](https://github.com/lhondareyte/spectro450-core)
 * [sqlite3](https://www.sqlite.org) : Specific version without GNU dependencies
+* [usb-sniffer](https://github.com/ataradov/usb-sniffer) : Low-cost USB Sniffer with Wireshark interface
 
 # Howto
 

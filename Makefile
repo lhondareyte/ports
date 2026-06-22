@@ -18,7 +18,8 @@ PACKAGES=	as31 \
 		noizebox \
 		smart-psu \
 		spectro450 \
-		sqlite3
+		sqlite3 \
+		usb-sniffer
 
 package:
 	@for dir in $(PACKAGES); do \
