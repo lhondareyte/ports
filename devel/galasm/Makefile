@@ -2,7 +2,7 @@
 
 PORTNAME=	galasm
 PORTVERSION=	2.1
-CATEGORIES=	sysutils
+CATEGORIES=	devel
 
 MAINTAINER=	lhondareyte@isp.net.invalid
 COMMENT=	Portable GAL Assembler
