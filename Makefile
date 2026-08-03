@@ -1,25 +1,25 @@
 # 
 # $Id$
 #
-PACKAGES=	as31 \
-		beatrix \
-		dvm1200 \
-		fxload \
-		firmwarehotplug \
-		galasm \
-		hex2bin \
-		jack \
-		jack_umidi \
-		jackctl \
-		libsamplerate \
-		mailsend \
-		memsim2 \
-		memsimctl \
-		noizebox \
-		smart-psu \
-		spectro450 \
-		sqlite3 \
-		usb-sniffer
+PACKAGES=	audio/beatrix \
+		audio/firmwarehotplug \
+		audio/jack \
+		audio/jack_umidi \
+		audio/jackctl \
+		audio/libsamplerate \
+		audio/noizebox \
+		databases/sqlite3 \
+		devel/as31 \
+		devel/galasm \
+		devel/hex2bin \
+		misc/dvm1200 \
+		misc/fxload \
+		misc/mailsend \
+		sysutils/memsim2 \
+		sysutils/memsimctl \
+		sysutils/smart-psu \
+		sysutils/spectro450 \
+		sysutils/usb-sniffer
 
 package:
 	@for dir in $(PACKAGES); do \
