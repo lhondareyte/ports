@@ -16,7 +16,7 @@
 * [memsimctl](https://github.com/ra1fh/memsim/ctl) : Another cli for memSIM2 emulator (ISC)
 * [noizebox](https://github.com/lhondareyte/noizebox) : Old school synthesizer based on ncurses and fluidsynth
 * [smart-psu](https://github.com/lhondareyte/smart-psu) : Smart PSU for ARM board
-* [sfubar](https://github.com/freepats/tools.git)
+* [sfubar](https://github.com/freepats/tools.git) Command line tool to create and edit Soundfonts (SF2)
 * [spectro450](https://github.com/lhondareyte/spectro450-core)
 * [sqlite3](https://www.sqlite.org) : Specific version without GNU dependencies
 * [usb-sniffer](https://github.com/ataradov/usb-sniffer) : Low-cost USB Sniffer with Wireshark interface

@@ -8,6 +8,7 @@ PACKAGES=	audio/beatrix \
 		audio/jackctl \
 		audio/libsamplerate \
 		audio/noizebox \
+		audio/sfubar \
 		databases/sqlite3 \
 		devel/as31 \
 		devel/galasm \
