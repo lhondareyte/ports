@@ -3,6 +3,7 @@
 * [as31](https://www.pjrc.com/tech/8051/tools/as31_old.html) : An Intel 8031/8051 assembler
 * [beatrix](https://people.dsv.su.se/~fk/beatrix_home.html) : B3 organ emulator
 * [dvm1200](https://github.com/lhondareyte/dvm1200) : Velleman DVM1200 command line interface
+* [emu2](https://github.com/dmsc/emu2) : Simple x86 and DOS emulator (Replacement for doscmd)
 * [fxload](https://github.com/lhondareyte/firmwarehotplug) : Firmware downloader for Cypress EZ-USB devices
 * [firmwarehotplug](https://github.com/lhondareyte/firmwarehotplug) : Open-source Firmwares for M-AUDIO Midi interfaces
 * [GALasm](https://github.com/daveho/GALasm) : Open-source GAL assembler
@@ -16,7 +17,7 @@
 * [memsimctl](https://github.com/ra1fh/memsim/ctl) : Another cli for memSIM2 emulator (ISC)
 * [noizebox](https://github.com/lhondareyte/noizebox) : Old school synthesizer based on ncurses and fluidsynth
 * [smart-psu](https://github.com/lhondareyte/smart-psu) : Smart PSU for ARM board
-* [sfubar](https://github.com/freepats/tools.git) Command line tool to create and edit Soundfonts (SF2)
+* [sfubar](https://github.com/freepats/tools.git) : Command line tool to create and edit Soundfonts (SF2)
 * [spectro450](https://github.com/lhondareyte/spectro450-core)
 * [sqlite3](https://www.sqlite.org) : Specific version without GNU dependencies
 * [usb-sniffer](https://github.com/ataradov/usb-sniffer) : Low-cost USB Sniffer with Wireshark interface

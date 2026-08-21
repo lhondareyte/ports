@@ -13,6 +13,7 @@ PACKAGES=	audio/beatrix \
 		devel/as31 \
 		devel/galasm \
 		devel/hex2bin \
+		emulators/emu2 \
 		misc/dvm1200 \
 		misc/fxload \
 		misc/mailsend \
