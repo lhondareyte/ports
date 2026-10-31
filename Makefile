@@ -35,3 +35,6 @@ clean:
 	@for dir in $(PACKAGES); do \
 		(cd $$dir; $(MAKE) $@); done
 
+links:
+	@for lnk in $(PACKAGES); do \
+		(cd All && ln -s ../$$lnk); done
